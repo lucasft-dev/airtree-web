@@ -35,6 +35,18 @@ main {
 .description p {
   color: aliceblue;
   width: 500px;
+  animation-duration: 1s;
+  animation-name: slidein;
+}
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
 }
 
 .imgimpresora {
@@ -108,6 +120,13 @@ footer {
 
 .imagen-muestra img {
   width: 300px;
+}
+.imagen-muestra img:hover {
+  -webkit-transform: scale(1.3);
+  transform: scale(1.3);
+}
+.imagen-muestra img .contenedor {
+  overflow: hidden;
 }
 
 /* Media query para reorganizar las columnas en pantallas más pequeñas */
