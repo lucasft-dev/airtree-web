@@ -1,0 +1,40 @@
+.titulo {
+    h1 {
+      color: $color2;
+      text-align: center;
+      padding: 20px;
+      font-size: 25px;
+    }
+  }
+  
+  .linea-titulo {
+    padding-bottom: 30px;
+  
+    hr {
+      border: 1px;
+      background-color: $color1;
+      width: 80%;
+      height: 2px;
+      margin: auto;
+    }
+  }
+  .conteiner-section {
+    display: flex;
+    justify-content: center;
+  }
+  .conteiner-img {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; /* Crea 3 columnas de igual ancho */
+    grid-gap: 10px; /* Espacio entre las columnas */
+  }
+  .imagen-muestra img {
+    width: 300px;
+  
+    &:hover {
+      -webkit-transform: scale(1.3);
+      transform: scale(1.3);
+    }
+    .contenedor {
+      overflow: hidden;
+    }
+  }

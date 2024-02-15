@@ -1,0 +1,33 @@
+footer {
+    width: 100vw;
+    height: auto;
+    padding: 10px;
+    bottom: 0;
+  }
+  
+  .conteiner-footer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+  
+    h5 {
+      color: $color2;
+      font-size: small;
+    }
+    .linea {
+      padding: 10px;
+      width: 85%;
+    }
+    hr {
+      border: 1px solid $color1;
+      margin: auto;
+    }
+  }
+  
+  .iconfooter img {
+    width: 25px;
+    box-sizing: border-box;
+    margin: 10px;
+    filter: invert(100%);
+  }
