@@ -4,6 +4,7 @@
   margin: 0;
 }
 
+/*variables*/
 body {
   background-image: url(../images/fondopaginas.jpg);
   background-size: cover;
@@ -35,18 +36,6 @@ main {
 .description p {
   color: aliceblue;
   width: 500px;
-  animation-duration: 1s;
-  animation-name: slidein;
-}
-@keyframes slidein {
-  from {
-    margin-left: 100%;
-    width: 300%;
-  }
-  to {
-    margin-left: 0%;
-    width: 100%;
-  }
 }
 
 .imgimpresora {
@@ -90,7 +79,7 @@ footer {
 }
 
 .titulo h1 {
-  color: #fff;
+  color: aliceblue;
   text-align: center;
   padding: 20px;
   font-size: 25px;
@@ -141,7 +130,7 @@ footer {
   }
 }
 .conteiner {
-  color: #fff;
+  color: aliceblue;
   font-family: "Quicksand", sans-serif;
   padding: 0 1.5em;
 }
@@ -180,7 +169,7 @@ footer {
 }
 .conteiner-grupo form button {
   background-color: #ff9100;
-  color: #fff;
+  color: aliceblue;
   border: 0;
   text-transform: uppercase;
 }
@@ -194,7 +183,7 @@ footer {
   background: none;
   border-bottom: 1px solid #ff9100;
   outline: 0;
-  color: #fff;
+  color: aliceblue;
 }
 
 .conteiner-grupo form button:hover,
