@@ -70,7 +70,7 @@ main {
 }
 
 .imgimpresora {
-  height: 500px;
+  height: 400px;
   opacity: 50%;
 }
 
@@ -186,7 +186,7 @@ main {
 }
 @media (max-width: 645px) {
   .conteiner-img {
-    grid-template-columns: 1fr; /* Cambia a una sola columna */
+    grid-template-columns: 1fr;
   }
 }
 @media (max-width: 945px) {
@@ -201,7 +201,7 @@ main {
 }
 @media (max-width: 645px) {
   main {
-    grid-template-columns: 1fr; /* Cambia a una sola columna */
+    grid-template-columns: 1fr;
   }
   .description p {
     color: aliceblue;
