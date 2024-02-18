@@ -57,15 +57,13 @@ footer {
 }
 
 main {
-  display: flex;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
   align-items: center;
   height: 100vh;
 }
 
-.description {
-  margin-left: 90px;
-}
 .description p {
   color: aliceblue;
   width: 500px;
@@ -73,9 +71,7 @@ main {
 
 .imgimpresora {
   height: 500px;
-  margin-right: 90px;
   opacity: 50%;
-  padding: 10px;
 }
 
 .titulo h1 {
@@ -191,6 +187,26 @@ main {
 @media (max-width: 645px) {
   .conteiner-img {
     grid-template-columns: 1fr; /* Cambia a una sola columna */
+  }
+}
+@media (max-width: 945px) {
+  .imgimpresora {
+    height: 300px;
+  }
+  .description p {
+    color: aliceblue;
+    width: 200px;
+    margin-top: 5%;
+  }
+}
+@media (max-width: 645px) {
+  main {
+    grid-template-columns: 1fr; /* Cambia a una sola columna */
+  }
+  .description p {
+    color: aliceblue;
+    width: 400px;
+    margin-top: 5%;
   }
 }
 
