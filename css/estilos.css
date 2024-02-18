@@ -7,8 +7,6 @@
 
 body {
   background-image: url(../images/fondopaginas.jpg);
-  background-size: cover;
-  background-repeat: repeat;
 }
 
 .navbar {
@@ -24,7 +22,6 @@ body {
 }
 
 footer {
-  width: 100vw;
   height: auto;
   padding: 10px;
   bottom: 0;
